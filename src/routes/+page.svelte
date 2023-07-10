@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Alert } from 'flowbite-svelte';
+    import { page } from '$app/stores';
 </script>
 
 <div class="p-8">
