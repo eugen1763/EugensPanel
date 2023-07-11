@@ -1,4 +1,5 @@
 import type { MenuItem } from "../models/MenuItem";
+import { writable } from "svelte/store";
 
 export module Menu {
     export const Items: MenuItem[] = [
@@ -7,8 +8,10 @@ export module Menu {
             title: "Home"
         },
         {
-            path: '/test',
-            title: "Test"
+            path: '/todo',
+            title: "TODO List"
         }
-    ]
+    ];
+
+    export const PageTitle = writable<string>("Home");
 }

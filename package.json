@@ -25,6 +25,7 @@
   "type": "module",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "bootstrap-icons": "^1.10.5",
     "flowbite": "^1.7.0",
     "flowbite-svelte": "^0.39.2",
     "tailwind-merge": "^1.13.2"
