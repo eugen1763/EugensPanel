@@ -9,7 +9,7 @@
         <slot />
     </div>
     {#if isLoading}
-        <div class="w-full h-full flex justify-center items-center">
+        <div class="w-full h-full flex justify-center items-center bg-gray-600 bg-opacity-40 rounded">
             <Spinner />
         </div>
     {/if}
